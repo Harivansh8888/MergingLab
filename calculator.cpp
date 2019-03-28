@@ -14,14 +14,19 @@ class Calculator
                         cout<<"Addition is: "<<c<<endl;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		void Subtraction
 =======
 		void Multiplication
 >>>>>>> dev2
+=======
+		void Divide
+>>>>>>> dev3
 		{
 			int a,b,c;
 			cout<<"Enter First Number: "<<endl;
 			cin>>a;
+<<<<<<< HEAD
 <<<<<<< HEAD
 			cout<<"Enter Second Number: "<<endl;
 			cin>>b;
@@ -33,6 +38,12 @@ class Calculator
 			c=a*b;
 			cout<<"Multiplication is: "<<c<<end;
 >>>>>>> dev2
+=======
+			cout<<"Enter Second Number: "<<endl;
+			cin>>b;
+			c=a/b;
+			cout<<"Division is: "<<c<<endl;
+>>>>>>> dev3
 		}
 
 };
@@ -42,10 +53,14 @@ int main()
 	int ch;
 	cout<<"Press 1 for Addition"<<endl;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	cout<<"Press 2 for Subtraction"<<endl;
 =======
 	cout<<"Press 3 for Multiplication"<<endl;
 >>>>>>> dev2
+=======
+	cout<<"Press 4 for Division"<<endl;
+>>>>>>> dev3
 	cin>>ch;
 	switch(ch)
 	{
@@ -53,12 +68,17 @@ int main()
 			c1.Addition();
 			break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 		case 2:
 			c1.Subtraction();
 =======
 		case 3:
 			c1.Multiplication();
 >>>>>>> dev2
+=======
+		case 4:
+			c1.Divide();
+>>>>>>> dev3
 			break;
 		default :
 			cout<<"Wrong Choice Entered"<<endl;
