@@ -21,7 +21,7 @@ class Calculator
 			cout<<"Enter Second Number: "<<endl;
 			cin>>b;
 			c=a-b;
-			cout<<"Subtraction is: "<<endl;
+			cout<<"Subtraction is: "<<c<<endl;
 		}
 
 };
